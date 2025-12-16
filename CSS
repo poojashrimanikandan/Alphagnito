@@ -1,0 +1,67 @@
+body {
+  font-family: "Georgia", serif;
+  background: white;
+  margin: 0;
+  padding: 30px;
+}
+
+.page {
+  max-width: 900px;
+  background:white;
+  margin: auto;
+  padding: 30px;
+  border-radius: 8px;
+}
+
+.apprentice {
+  color: orange;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+h1 {
+  font-size: 36px;
+  margin: 10px 0 30px;
+}
+
+h1 span {
+  color: skyblue;
+  font-family: "Courier New", monospace;
+}
+
+.section {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.text p {
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.media img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+.caption {
+  font-size: 13px;
+  color:grey;
+  margin-top: 5px;
+}
+
+.question {
+  margin-top: 10px;
+  padding: 10px;
+  background: whitesmoke;
+  color:skyblue;
+  font-size: 14px;
+  border-left: 4px solid skyblue;
+  cursor: pointer;
+}
+
+.question:hover {
+  background: whitesmoke;
+}
