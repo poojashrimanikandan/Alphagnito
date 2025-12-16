@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="badge">INDEPENDENT READING</div>
+
+    <h2>Record what you have learned from others.</h2>
+
+    <div class="topics">
+        <span>Surviving Storms:<br>Firsthand Accounts</span>
+        <span>Big Storms Throughout<br>History</span>
+        <span>Storm Chasers</span>
+    </div>
+
+    <table id="learningTable">
+        <tbody>
+            <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <div class="buttons">
+        <button onclick="addRow()">➕ Add</button>
+        <button onclick="removeRow()">➖ Remove</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>
