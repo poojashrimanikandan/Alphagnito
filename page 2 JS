@@ -1,0 +1,17 @@
+function addRow() {
+    const table = document.getElementById("learningTable").getElementsByTagName("tbody")[0];
+
+    const newRow = table.insertRow();
+
+    for (let i = 0; i < 3; i++) {
+        newRow.insertCell(i);
+    }
+}
+
+function removeRow() {
+    const table = document.getElementById("learningTable").getElementsByTagName("tbody")[0];
+
+    if (table.rows.length > 1) {
+        table.deleteRow(-1);
+    }
+}
